@@ -5,7 +5,7 @@
   "scripts": {
     "start": "npm run build:client && node ./bin/www",
     "build:client": "cd client && npm install && npm run build",
-    "install:client": "cd client && npm install"
+    "install": "cd client && npm install"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
